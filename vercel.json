@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "EMPAPI/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "EMPAPI/wsgi.py"
+      }
+    ]
+}
