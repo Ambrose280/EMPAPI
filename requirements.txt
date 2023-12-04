@@ -28,7 +28,7 @@ defusedxml==0.7.1
 discord.py==2.3.2
 distlib==0.3.7
 distro==1.7.0
-distro-info==1.1+ubuntu0.1
+distro-info
 dj-database-url==2.1.0
 dj-rest-auth==5.0.2
 dj-stripe==2.8.3
